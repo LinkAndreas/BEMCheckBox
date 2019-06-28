@@ -11,9 +11,9 @@
 		5643F1331CDE722C0020E238 /* BEMCheckBox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5643F12B1CDE722C0020E238 /* BEMCheckBox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5643F1381CDE724A0020E238 /* BEMCheckBox.h in Headers */ = {isa = PBXBuildFile; fileRef = C325373A1B9231FD0059F394 /* BEMCheckBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5643F1391CDE724A0020E238 /* BEMCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = C325373B1B9231FD0059F394 /* BEMCheckBox.m */; };
-		5643F13A1CDE724A0020E238 /* BEMAnimationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C3E837A81BAE3493004576D6 /* BEMAnimationManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5643F13A1CDE724A0020E238 /* BEMAnimationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C3E837A81BAE3493004576D6 /* BEMAnimationManager.h */; };
 		5643F13B1CDE724A0020E238 /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E837A91BAE3493004576D6 /* BEMAnimationManager.m */; };
-		5643F13C1CDE724A0020E238 /* BEMPathManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C3E837AB1BAE35D8004576D6 /* BEMPathManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5643F13C1CDE724A0020E238 /* BEMPathManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C3E837AB1BAE35D8004576D6 /* BEMPathManager.h */; };
 		5643F13D1CDE724A0020E238 /* BEMPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E837AC1BAE35D8004576D6 /* BEMPathManager.m */; };
 		984F9E0F1DB59228002F746B /* BEMCheckBoxGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 984F9E0D1DB59228002F746B /* BEMCheckBoxGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		984F9E101DB59228002F746B /* BEMCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 984F9E0E1DB59228002F746B /* BEMCheckBoxGroup.m */; };
@@ -363,6 +363,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -509,7 +510,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = BEMCheckBox/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BEM.CheckBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -532,7 +533,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = BEMCheckBox/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BEM.CheckBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -582,7 +583,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -621,7 +622,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -687,7 +688,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				INFOPLIST_FILE = CheckBoxUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = borisemorine.CheckBoxUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -703,7 +704,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				INFOPLIST_FILE = CheckBoxUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = borisemorine.CheckBoxUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
